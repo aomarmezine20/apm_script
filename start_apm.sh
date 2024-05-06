@@ -6,4 +6,5 @@ java -javaagent:/home/azureuser/filebeat-springboot/test_spring_boot/elastic-apm
      -Delastic.apm.server_url=http://20.107.172.232:8200 \
      -Delastic.apm.environment=my-environment \
      -Delastic.apm.application_packages=org.example \
+     -Delastic.apm.log_sending=true \
      -jar /home/azureuser/filebeat-springboot/test_spring_boot/target/test_spring_boot-0.0.1-SNAPSHOT.jar
